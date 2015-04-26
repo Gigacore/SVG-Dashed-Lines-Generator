@@ -7,8 +7,13 @@ View it in action
 =================
 - http://gigacore.github.io/demos/svg-stroke-dasharray-generator/
 
+
+Credits
+=======
+Colpick plugin by Jose Vargas
+
 License
 ===================
 The MIT License (MIT)
 
-Copyright (c) 2014 Santhosh Sundar
+Copyright (c) 2015 Santhosh Sundar
