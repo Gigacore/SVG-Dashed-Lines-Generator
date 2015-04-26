@@ -1,0 +1,272 @@
+body
+{
+    background:#ffebee;
+    border-top:5px solid #f57c00;
+    font-family:"roboto slab";
+    margin:0;
+}
+
+h1
+{
+    text-align:center;
+}
+
+textarea
+{
+    font-family:courier;
+    font-size:13px;
+}
+
+#wrap
+{
+    margin:0 auto;
+    position:relative;
+    width:960px;
+}
+
+#container
+{
+    background:url(graphy.png);
+    border:1px solid #e0cece;
+    display:table-cell;
+    height:500px;
+    margin:0 auto;
+    overflow:hidden;
+    vertical-align:middle;
+    width:600px;
+}
+
+#markup
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+svg
+{
+    background:url(transp_bg.png);
+}
+
+#controls
+{
+    background:#efebe9;
+    border:1px solid #d7ccc8;
+    float:right;
+    height:400px;
+    padding:0 20px 20px;
+    position:absolute;
+    right:0;
+    top:95px;
+    width:300px;
+}
+
+#control-tabs
+{
+    cursor:pointer;
+    height:30px;
+    left:-1px;
+    position:absolute;
+    top:-30px;
+}
+
+#control-tabs ul
+{
+    margin:0;
+    padding:0;
+}
+
+#control-tabs ul li
+{
+    background:#ddd;
+    border-left:1px solid #ccc;
+    border-radius:5px 5px 0 0;
+    border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+    float:left;
+    font-family:"Roboto Slab",serif;
+    font-size:14px;
+    font-weight:700;
+    list-style:none;
+    margin-right:2px;
+    padding:5px 10px 5px 25px;
+    position:relative;
+}
+
+#control-tabs ul li.active
+{
+    background:#efebe9;
+}
+
+#control-tabs ul li::before
+{
+    background-size:18px auto;
+    content:"";
+    height:18px;
+    left:4px;
+    position:absolute;
+    top:6px;
+    width:18px;
+}
+
+#control-tabs ul li[data-tab=controls]::before
+{
+    background-image:url(http://google.github.io/material-design-icons/image/svg/ic_tune_24px.svg);
+}
+
+#control-tabs ul li[data-tab=style]::before
+{
+    background-image:url(http://google.github.io/material-design-icons/editor/svg/ic_border_color_24px.svg);
+}
+
+#controls p
+{
+    color:#333;
+    font-family:"Roboto Slab",serif;
+    font-size:14px;
+    margin:15px 0 5px;
+    padding:0;
+}
+
+.tab
+{
+    display:none;
+}
+
+.tab.active
+{
+    display:block;
+}
+
+.tab svg
+{
+    background:none;
+    cursor:pointer;
+    width:100%;
+}
+
+.tab svg line
+{
+    background:#ddd;
+}
+
+.style
+{
+    background:#e4e4e4;
+    border:1px solid #ccc;
+    cursor:pointer;
+    margin:8px 0;
+    padding:1px 0 0;
+}
+
+.style.active
+{
+    background:#eee;
+    border:3px solid #ccc;
+}
+
+#colpicker
+{
+    float:right;
+}
+
+#colpicker > span
+{
+    font-weight:700;
+    padding:0 4px;
+}
+
+#picker
+{
+    border:0;
+    border-right:30px solid #000;
+    font-size:14px;
+    height:30px;
+    line-height:20px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    text-transform:uppercase;
+    width:80px;
+}
+
+line
+{
+    stroke:#000;
+    stroke-width:2;
+}
+
+.ui-widget
+{
+    background:#bdbdbd;
+    font-size:.6em;
+}
+
+#generate-cta
+{
+    background:#ef6c00;
+    box-shadow:2px 2px 2px #ccc;
+    cursor:pointer;
+    float:right;
+    font-weight:700;
+    height:30px;
+    position:relative;
+    top:-34px;
+    width:342px;
+}
+
+#generate-cta:hover
+{
+    box-shadow:2px 2px 2px #bbb;
+}
+
+#generate-cta > span
+{
+    color:#fff;
+    display:inline-block;
+    position:relative;
+    text-align:center;
+    top:3px;
+    width:100%;
+}
+
+#continue
+{
+    background:#eee;
+    border:2px solid #ccc;
+    cursor:pointer;
+    margin:0 auto;
+    padding:5px 0 6px;
+    position:relative;
+    text-align:center;
+    top:50px;
+    width:200px;
+}
+
+.desc, .desc a {
+    color: #555;
+    font-size: 12px;
+}
+
+.desc > span {
+    background: #ccc;
+    font-family: courier;
+}
+
+footer
+{
+    background:#a1887f;
+    bottom:0;
+    clear:both;
+    color:#fff;
+    font-size:14px;
+    padding:5px 0;
+    position:fixed;
+    text-align:center;
+    width:100%;
+    z-index:99;
+}
+
+footer a
+{
+    color:#fff;
+}
