@@ -1,7 +1,7 @@
 # SVG Dashed Lines Generator
 A simple dashed lines generator for web using SVG ```stroke-dasharray``` attribute as documented on MDN.
 
-![Screenshot](http://i.imgur.com/P0psq2j.jpg)
+![Screenshot](http://i.imgur.com/P0psq2j.jpg?1)
 
 View it in action
 =================
